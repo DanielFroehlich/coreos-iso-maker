@@ -3,28 +3,36 @@ all:
   children:
     bootstrap:
       hosts:
-        bootstrap_node.example.com:
-          ipv4: 192.168.122.15
+        bootstrap.ocp5.stormshift.coe.muc.redhat.com:
+          ipv4: 192.168.11.56
     
     master:
       hosts:
-        master1.example.com:
-          ipv4: 192.168.122.20
+        control-0.ocp5.stormshift.coe.muc.redhat.com:
+          ipv4: 192.168.11.50
 
-        master2.example.com:
-          ipv4: 192.168.122.21
+        control-1.ocp5.stormshift.coe.muc.redhat.com:
+          ipv4: 192.168.11.51
 
-        master3.example.com:
-          ipv4: 192.168.122.22
+        control-2.ocp5.stormshift.coe.muc.redhat.com:
+          ipv4: 192.168.11.52
         
     worker:
       hosts:
-        worker1.example.com:
-          ipv4: 192.168.122.30
+        compute-0.ocp5.stormshift.coe.muc.redhat.com:
+          ipv4: 192.168.11.53
 
-        worker2.example.com:
-          ipv4: 192.168.122.31
+        compute-1.ocp5.stormshift.coe.muc.redhat.com:
+          ipv4: 192.168.11.54
 
-        worker3.example.com:
-          ipv4: 192.168.122.32
+        compute-2.ocp5.stormshift.coe.muc.redhat.com:
+          ipv4: 192.168.11.55
+
+        storm4.coe.muc.redhat.com:
+          ipv4: 192.168.11.4
+        storm5.coe.muc.redhat.com:
+          ipv4: 192.168.11.5
+        storm6.coe.muc.redhat.com:
+          ipv4: 192.168.11.6
+
 ...
